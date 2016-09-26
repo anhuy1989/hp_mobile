@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+    <title>Hoang Phuc International</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="images/favicon.ico" type="img/x-icon">
+
+    <!-- Bootstrap Core CSS -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/languages.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/jasny-bootstrap.min.css" />
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link type="text/css" rel="stylesheet" href="dist/css/jquery.mmenu.css" />
+    <link rel="stylesheet" type="text/css" href="dist/css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsivemultimenu.css" type="text/css" />
+    <!--Custom CSS-->
+    <link type="text/css" rel="stylesheet" href="css/custom.css" />
+
+
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas hp-menu-canvas">
+        <ul class="nav nav-pills hp-tab-sidebar">
+            <li class="active"><a data-toggle="pill" href="#shop">Shop</a></li>
+            <li><a data-toggle="pill" href="#your-profile">Your profile</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="shop" class="tab-pane fade in active">
+                <ul id="navigation" class="nav-categories">
+                    <li class="active"><a href="#">Dành cho nữ</a>
+                        <ul>
+                            <li><a href="#">Áo</a>
+                                <ul>
+                                    <li><a href="#">Áo thun</a></li>
+                                    <li><a href="#">Áo thun có cổ</a></li>
+                                    <li><a href="#">Áo sơ mi</a></li>
+                                    <li><a href="#">Áo kiểu</a></li>
+                                    <li><a href="#">Áo hai dây & Áo ba lỗ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Áo khoác</a></li>
+                            <li><a href="#">Quần</a></li>
+                            <li><a href="#">Đầm & váy</a></li>
+                            <li><a href="#">Phụ kiện</a></li>
+                            <li><a href="#">Giày</a></li>
+                            <li><a href="#">Dép</a></li>
+                            <li><a href="#">Ba lô, túi xách & ví</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="#">Dành cho nam</a>
+                        <ul>
+                            <li><a href="#">Áo</a>
+                                <ul>
+                                    <li><a href="#">Áo thun</a></li>
+                                    <li><a href="#">Áo thun có cổ</a></li>
+                                    <li><a href="#">Áo sơ mi</a></li>
+                                    <li><a href="#">Áo kiểu</a></li>
+                                    <li><a href="#">Áo hai dây & Áo ba lỗ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Áo khoác</a></li>
+                            <li><a href="#">Quần</a></li>
+                            <li><a href="#">Đầm & váy</a></li>
+                            <li><a href="#">Phụ kiện</a></li>
+                            <li><a href="#">Giày</a></li>
+                            <li><a href="#">Dép</a></li>
+                            <li><a href="#">Ba lô, túi xách & ví</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="#">trẻ em</a></li>
+                    <li class="active"><a href="#">phụ kiện</a></li>
+                    <li class="active"><a href="#">thương hiệu</a></li>
+                    <li class="active"><a href="#">sản phẩm mới</a></li>
+                    <li class="active"><a href="http://tuoitre.vn">outlet</a></li>
+                    <li class="active"><a href="#">cửa hàng</a></li>
+                </ul>
+            </div>
+            <div id="your-profile" class="tab-pane fade">
+                <ul class="nav-account">
+                    <li><a href="#">Track order</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Login</a></li>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <!-- Header -->
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="hp-header">
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+            <div class="logo-wrapper">
+                <a class="logo hp-logo" href="#">
+                    <img src="images/logo.png" alt="Hoang Phuc International" title="Hoang Phuc International">
+                </a>
+            </div>
+            <div class="hp-right-header">
+                <div class="hp-header-right-item wishlist_wrapper">
+                    <div class="header_wishlist"> <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <span class="number-wishlist"></span> </div>
+                </div>
+                <div class="hp-header-right-item cart_wrapper">
+                    <div class="header_cart"> <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a> <span class="number-cart"></span> </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="top-search-wrapper" class="global-search">
+        <form id="search_mini_form" action="" method="get">
+            <div class="input-box">
+                <input id="search" type="search" name="q" value="" class="input-text required-entry" maxlength="128" placeholder="What are you looking for?" autocomplete="off">
+                <button type="submit" title="Tìm " class="button search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+        </form>
+    </div>
+    <!-- Content -->
+    <div class="hp-content" id="content">
+        <!-- Banner of the brands -->
+        <div class="block b-banner-of-brands">
+            <div class="b-brands"><img src="images/banners/banner-of-band.jpg" alt="" title=""></div>
+        </div>
+        <!-- Top brands -->
+        <div class="block b-category-products">
+            <div class="block-content-wrapper">
+                <div class="page-subtitle">
+                    <h2 class="subtitle">Shoes</h2>
+                </div>
+                <div class="toolbar">
+                    <div class="search-result">
+                        <p class="amount amount--has-pages">2345 items</p>
+                    </div>
+                    <div class="sorter">
+                        <div class="filter-link">
+                            <div>
+                                <a class="btn btn-outline" href="#openModal">Filter</a>
+                            </div>
+                            <div id="openModal" class="modalDialog">
+                                <div class="product-filter-list">
+                                    <div class="overlay-popup-header">
+                                        <h2 class="title-overlay-popup">Filter</h2>
+                                        <div class="filter-top-actions">
+                                            <a href="#close" class="btn btn-outline" title="">Cancel</a>
+                                        </div>
+                                    </div>
+                                    <!--<div class="filter-options rmm">
+                                        <ul class="filter-menu filter-option-level-1">
+                                            <li><a title="" href="#">Categories<span class="icon-right-arrow pull-right"></span></a>
+
+                                                <ul class="m-filter-css-checkboxes  panel-list m-expandable-filter">
+                                                    <li><a class="m-checkbox-unchecked" onclick="this.className='m-checkbox-checked'" href="#" title="">Giày bốt<span class="count">(163)</span></a></li>
+                                                    <li><a class="m-checkbox-unchecked" onclick="this.className='m-checkbox-checked'" href="#" title="">Giày búp bê <span class="count">(166)</span></a></li>
+                                                    <li><a class="m-checkbox-unchecked" onclick="this.className='m-checkbox-checked'" href="#" title="">Giày cao gót <span class="count">(163)</span></a></li>
+                                                    <li><a class="m-checkbox-unchecked" onclick="this.className='m-checkbox-checked'" href="#" title="">Giày đế xuồng<span class="count">(166)</span></a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li><a title="" href="#">Brands<span class="icon-right-arrow pull-right"></span></a></li>
+                                            <li><a title="" href="#">Collection<span class="icon-right-arrow pull-right"></span></a></li>
+                                            <li><a title="" href="#">Size<span class="icon-right-arrow pull-right"></span></a></li>
+                                            <li><a title="" href="#">Color<span class="icon-right-arrow pull-right"></span></a></li>
+                                            <li><a title="" href="#">Audience<span class="icon-right-arrow pull-right"></span></a></li>
+                                            <li><a title="" href="#">Style<span class="icon-right-arrow pull-right"></span></a></li>
+                                        </ul>
+
+                                    </div>-->
+                                    <div class="filter-options rmm">
+                                        <ul class="filter-menu filter-option-level-1">
+                                            <li><a class="collapse" value='categories' href="javascript:void(0);">Categories<span class="icon-right-arrow pull-right"></span><small></small></a>
+                                                <ul class="m-filter-css-checkboxes  panel-list m-expandable-filter">
+                                                    <li><input id="cbx21" value="giay-bot-21" type="checkbox">
+                                                        <label for="cbx21"><span></span>Giày bốt 21</label><span class="count">(163)</span>
+                                                    </li>
+                                                    <li><input id="cbx22" value="giay-bot-22" type="checkbox">
+                                                        <label for="cbx22"><span></span>Giày bốt 22 </label><span class="count">(164)</span></li>
+                                                    <li><input id="cbx23" value="giay-bot-23" type="checkbox">
+                                                        <label for="cbx23"><span></span>Giày bốt 23</label><span class="count">(165)</span></li>
+                                                    <li><input id="cbx24" value="giay-bot-24" type="checkbox">
+                                                        <label for="cbx24"><span></span>Giày bốt 24</label><span class="count">(166)</span></li>
+                                                </ul>
+
+                                            </li>
+                                            <li><a class="collapse" value='brands' href="javascript:void(0);">Brands<span class="icon-right-arrow pull-right"></span><small></small></a>
+
+                                                <ul class="m-filter-css-checkboxes  panel-list m-expandable-filter">
+                                                    <li><input id="cbx1" value="giay-bot-1" type="checkbox">
+                                                        <label for="cbx1"><span></span>Giày bốt 1</label><span class="count">(163)</span>
+                                                    </li>
+                                                    <li><input id="cbx2" value="giay-bot-2" type="checkbox">
+                                                        <label for="cbx2"><span></span>Giày bốt 2 </label><span class="count">(164)</span></li>
+                                                    <li><input id="cbx3" value="giay-bot-3" type="checkbox">
+                                                        <label for="cbx3"><span></span>Giày bốt 3</label><span class="count">(165)</span></li>
+                                                    <li><input id="cbx4" value="giay-bot-4" type="checkbox">
+                                                        <label for="cbx4"><span></span>Giày bốt 4</label><span class="count">(166)</span></li>
+                                                </ul>
+
+                                            </li>
+                                            <li><a class="collapse" href="javascript:void(0);">Collection<span class="icon-right-arrow pull-right"></span></a></li>
+                                            <li><a class="collapse" href="javascript:void(0);">Size<span class="icon-right-arrow pull-right"></span></a></li>
+                                            <li><a class="collapse" href="javascript:void(0);">Color<span class="icon-right-arrow pull-right"></span></a></li>
+                                            <li><a class="collapse" href="javascript:void(0);">Audience<span class="icon-right-arrow pull-right"></span></a></li>
+                                            <li><a class="collapse" href="javascript:void(0);">Style<span class="icon-right-arrow pull-right"></span></a></li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="btn-group btn-group-justified btn-bottom-wrap fr-filter-apply">
+                                        <div class="btn-group" role="group">
+                                            <button class="btn btn-default btn-block fr-clean-all">Clear All</button>
+                                        </div>
+                                        <div class="btn-group" role="group">
+                                            <a href="#close" class="btn btn-main btn-block fr-apply">Apply</a>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group btn-group-justified btn-bottom-wrap fr-filter-opts">
+                                        <div class="btn-group" role="group">
+                                            <button class="btn btn-default fr-clean">Clear</button>
+                                        </div>
+                                        <div class="btn-group" role="group">
+                                            <button class="btn btn-main fr-done">Done & Back</button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-bottom-wrap fr-filter-home">
+                                        <button class="btn btn-main btn-block fr-close">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="sort-by">
+                            <div>
+                                <select class="no-radus" onchange="" title="Sắp xếp">
+											<option value="">Thứ tự tăng dần </option>
+											<option value="">Thứ tự giảm dần</option>
+											<option value="">Tên A-Z</option>
+											<option value="">Tên Z-A</option>
+											<option value="">Giá thấp đến cao</option>
+											<option value="" selected="selected">Giá cao đến thấp</option>
+										</select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-2-columns products-grid">
+                    <div class="wrap-grid">
+                        <div class="grid-item">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="images/products/normal/01.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-name">Dr. Martens Bốt cổ cao Pascal 1F66 CH.RED</h2>
+                                </div>
+                                <div class="price-box">
+                                    <p class="special-price">
+                                        <span class="price">2.850.000 VND</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-grid">
+                        <div class="grid-item">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="images/products/normal/01.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-name">Dr. Martens Bốt cổ cao Pascal 1F66 CH.RED</h2>
+                                    <div class="product-new-sticker">
+                                        <span>New</span>
+                                    </div>
+                                    <div class="product-sticker circle">
+                                        <span>-30%</span>
+                                    </div>
+                                </div>
+                                <div class="price-box">
+                                    <p class="special-price">
+                                        <span class="price" id="product-price-6305">2.793.000 VND</span>
+                                    </p>
+                                    <p class="old-price">
+                                        <span class="price" id="old-price-6305">3.990.000 VND</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-grid">
+                        <div class="grid-item">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="images/products/normal/01.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-name">Dr. Martens</h2>
+                                </div>
+                                <div class="price-box">
+                                    <p class="special-price">
+                                        <span class="price">2.850.000 VND</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-grid">
+                        <div class="grid-item">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="images/products/normal/01.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-name">Dr. Martens Bốt cổ cao Pascal 1F66 CH.RED</h2>
+                                </div>
+                                <div class="price-box">
+                                    <p class="special-price">
+                                        <span class="price">2.850.000 VND</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-grid">
+                        <div class="grid-item">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="images/products/normal/01.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-name">Dr. Martens Bốt cổ cao Pascal 1F66 CH.RED</h2>
+                                </div>
+                                <div class="price-box">
+                                    <p class="special-price">
+                                        <span class="price">2.850.000 VND</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-grid">
+                        <div class="grid-item">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="images/products/normal/01.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-name">Dr. Martens Bốt cổ cao Pascal 1F66 CH.RED</h2>
+                                </div>
+                                <div class="price-box">
+                                    <p class="special-price">
+                                        <span class="price">2.850.000 VND</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-grid">
+                        <div class="grid-item">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="images/products/normal/01.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-name">Dr. Martens Bốt cổ cao Pascal 1F66 CH.RED</h2>
+                                </div>
+                                <div class="price-box">
+                                    <p class="special-price">
+                                        <span class="price">2.850.000 VND</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-grid">
+                        <div class="grid-item">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="images/products/normal/01.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-name">Dr. Martens Bốt cổ cao Pascal 1F66 CH.RED</h2>
+                                </div>
+                                <div class="price-box">
+                                    <p class="special-price">
+                                        <span class="price">2.850.000 VND</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-grid">
+                        <div class="grid-item">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="images/products/normal/01.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-name">Dr. Martens Bốt cổ cao Pascal 1F66 CH.RED</h2>
+                                </div>
+                                <div class="price-box">
+                                    <p class="special-price">
+                                        <span class="price">2.850.000 VND</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-grid">
+                        <div class="grid-item">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="images/products/normal/01.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-name">Dr. Martens Bốt cổ cao Pascal 1F66 CH.RED</h2>
+                                </div>
+                                <div class="price-box">
+                                    <p class="special-price">
+                                        <span class="price">2.850.000 VND</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reset-float"></div>
+                <div class="show-more-products">
+                    <a href="#">show more products</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <!-- Footer -->
+    <div class="hp-footer">
+        <a href="#" class="back_to_top" style="display: none;">Back to top<i class="icon icon-back-to-top"></i></a>
+        <div class="contact-button-group">
+            <div class="block-content-wrapper">
+                <div class="grid-2-columns">
+                    <div class="wrap-grid">
+                        <div class="grid-item hotline">
+                            <a href="tel:1900 6931">Hotline: 1900 6931</a>
+                        </div>
+                    </div>
+                    <div class="wrap-grid">
+                        <div class="grid-item email-us">
+                            <a href="mailto:order@hoangphucinternational.com">Email us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-group" id="hp-footer-accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#hp-footer-accordion" href="#collapseOne">
+                        <h4 class="panel-title"></h4>
+                        <span class="panel-title-text">Liên Hệ</span>
+                        <span class="icon icon-plus"></span>
+                    </a>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="panel-contact-us">
+                            <div class="footer-contact">
+                                <p>Công ty TNHH Hoàng Phúc Quốc Tế<br> Tầng 33, Tòa nhà Bitexco Financial<br>02 Hải Triều, P. Bến Nghé, Q.1, Tp.HCM<br> Email: <a href="mailto:order@hoangphucinternational.com">order@hoangphucinternational.com</a>
+                                    <br>Hotline: 1900 6931<br>8:00 - 17:30 (Thứ 2 - Thứ 6)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#hp-footer-accordion" href="#collapseTwo">
+                        <h4 class="panel-title"></h4>
+                        <span class="panel-title-text">Hoang Phuc International</span>
+                        <span class="icon icon-plus"></span>
+                    </a>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="panel-hp-international">
+                            <ul>
+                                <li><a href="#">Hệ thống cửa hàng</a></li>
+                                <li><a href="#">Chính sách bảo mật</a></li>
+                                <li><a href="#">Tin tức Sự kiện</a></li>
+                                <li><a href="#">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#hp-footer-accordion" href="#collapseThree">
+                        <h4 class="panel-title"></h4>
+                        <span class="panel-title-text">Hỗ Trợ Khách Hàng</span>
+                        <span class="icon icon-plus"></span>
+                    </a>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="panel-customer-care">
+                            <ul>
+                                <li><a href="#">Hướng dẫn chọn size</a></li>
+                                <li><a href="#">Kiểm tra đơn hàng</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-language languages">
+            <div class="btn-group dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							<span class="lang-xs lang-lbl" lang="en"></span> <span class="caret"></span>
+						</button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><span class="lang-xs lang-lbl" lang="vi"></span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright 2016 Hoangphucinternational.com. <br>All Rights Reserved
+            <a class="#">Desktop version</a>
+        </div>
+        <div class="desktop">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.2/js/jasny-bootstrap.js"></script>
+
+    <script type="text/javascript" src="js/menu-level.js"></script>
+    <script src="js/jquery.popupoverlay.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="dist/js/jquery.pushMenu.min.js"></script>
+    <script type="text/javascript" src="js/responsivemultimenu.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
