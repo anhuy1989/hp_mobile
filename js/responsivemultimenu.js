@@ -180,7 +180,7 @@ function responsiveMultiMenu() {
         $arr_curr = [];
         console.log($arr_curr);
         $('.rmm-submenu.rmm-subview').find('li>input[type=checkbox]:checked').attr('checked', false);
-
+        $('li>a.collapse>small').text('');        
     })
 
     $('.fr-done').click(function() {
