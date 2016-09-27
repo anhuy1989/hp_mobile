@@ -996,7 +996,120 @@ h2.subtitle {
     display: block;
     padding: 8px 0;
 }
+/* ==========================================================================
+   Wish list
+   ========================================================================== */
 
+.wish-list-content .sh-left{
+    flex: 1;
+}
+.wish-list-content .sh-right{
+    flex: 1;
+    text-align: right;
+}
+.wish-list-content .small-header{
+    text-transform: uppercase;
+    display: flex;
+    border-top: 1px solid #CBCBCB;
+    border-bottom: 1px solid #CBCBCB;
+    height: 4rem;
+    line-height: 4rem;
+    padding: 0 1rem; 
+}
+.wish-list-content .add-to-cart-btn{
+    background: #fbe900;
+    text-transform: uppercase;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    cursor: pointer;
+    width: 60%;
+}
+.wish-list-content .items{
+
+}
+.wish-list-content i {
+    font-style: normal;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    background-size: contain;
+}
+.wish-list-content .small-link{
+    text-transform: capitalize;
+    margin-right: 2rem;
+}
+.wish-list-content .edit {
+    background: url('../images/icons/pencil.svg') center center no-repeat ;
+    margin-right:0.5rem ;
+}
+.wish-list-content .remove {
+    background: url('../images/icons/bin.svg') center center no-repeat ;
+    margin-right: 0.5rem;
+}
+.wish-list-content .wl-item{
+    display: flex;
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #CBCBCB;
+}
+.wish-list-content input[type="text"]{
+    border: 1px solid #CBCBCB;
+    text-align: center;
+    width: 5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.wish-list-content .wli-left{
+    width: 30%;
+    padding-top: 1rem;
+}
+.wish-list-content .wli-right{
+    flex: 1;
+    position: relative
+}
+.wish-list-content .wli-right span{
+    display: block;
+    text-transform: uppercase;
+}
+.wish-list-content .link-group{
+    padding: 2rem 0;
+}
+.wish-list-btn-group {
+    padding: 3rem 1rem;
+}
+.wish-list-btn-group .action-btn {
+    background: #fbe900;
+
+}
+.wish-list-btn-group .social-btn, .wish-list-btn-group .action-btn{
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+}
+.wish-list-btn-group .social-btn {
+    border: 1px solid;
+}
+.wish-list-content{
+
+}
+.wish-list-content{
+
+}
+.wish-list-content{
+
+}
+.wish-list-content{
+
+}
+.wish-list-content{
+
+}
+.wish-list-content{
+
+}
 
 /* ==========================================================================
    Products
