@@ -133,74 +133,70 @@
     <!-- Content -->
     <div class="hp-content" id="content">
 
-        <!-- wish list content -->
-        <div class="wish-list-content">
-            <div class="small-header">
-                <div class="sh-left">
-                    my wishlist
-                </div> 
-                <div class="sh-right">
-                    qty: 2 items
-                </div>
+        <!-- find store content -->
+        <div class="find-store-content">
+            <div class="page-name">find your nearest store</div>
+            <div class="th">search store</div>
+            <div class="btn-group dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    Select Town/City
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li>ho chi minh</li>
+                    <li>da nang</li>
+                </ul>
             </div>
-            <div class="items">
-                <div class="wl-item">
-                    <div class="wli-left"><img src="images/products/thumb/04.png" alt="" title=""></div>
-                    <div class="wli-right">
-                        <span>dr. marten bốt cổ cao</span>
-                        <span>pascal 1f66 ch.red</span>
-                        <span>sku: k0622td23 001 s16 s</span>
-                        <span>1.745.000 vnd</span>
-                        <input type="text" name="" value="1">
-                        <div class="link-group">
-                            <a href="#" class="small-link"><i class="edit"></i>edit</a>
-                            <a href="#" class="small-link"><i class="remove"></i>remove</a>
-                        </div>
-                        <div class="add-to-cart-btn">add to cart &rangle;</div>
-                    </div>
-                </div>
-                <div class="wl-item">
-                    <div class="wli-left"><img src="images/products/thumb/04.png" alt="" title=""></div>
-                    <div class="wli-right">
-                        <span>dr. marten bốt cổ cao</span>
-                        <span>pascal 1f66 ch.red</span>
-                        <span>sku: k0622td23 001 s16 s</span>
-                        <span>1.745.000 vnd</span>
-                        <input type="text" name="" value="1">
-                        <div class="link-group">
-                            <a href="#" class="small-link"><i class="edit"></i>edit</a>
-                            <a href="#" class="small-link"><i class="remove"></i>remove</a>
-                        </div>
-                        <div class="add-to-cart-btn">add to cart &rangle;</div>
-                        <input type="text" name="" value="1">
-                    </div>
-                </div>
-                <div class="wl-item">
-                    <div class="wli-left"><img src="images/products/thumb/04.png" alt="" title=""></div>
-                    <div class="wli-right">
-                        <span>dr. marten bốt cổ cao</span>
-                        <span>pascal 1f66 ch.red</span>
-                        <span>sku: k0622td23 001 s16 s</span>
-                        <span>1.745.000 vnd</span>
-                        <input type="text" name="" value="1">
-                        <div class="link-group">
-                            <a href="#" class="small-link"><i class="edit"></i>edit</a>
-                            <a href="#" class="small-link"><i class="remove"></i>remove</a>
-                        </div>
-                        <div class="add-to-cart-btn">add to cart &rangle;</div>
-                    </div>
-                </div>
+            <div class="btn-group dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    Your location
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li>ho chi minh</li>
+                    <li>da nang</li>
+                </ul>
             </div>
-            <div class="wish-list-btn-group">
-                <div class="action-btn">add all to cart</div>
-                <div class="social-btn">share wishlist</div>
-                <div class="social-btn">update wishlist</div>
+            <div class="search-btn">search</div>
+            <div class="th">stores</div>
+            <div class="store-list">
+                <div class="store-item">
+                    <p>benetton - ha noi</p>
+                    <span>vincom center 191 ba Trieu, le dai hanh, hai ba trung, ha noi, vietnam</span>
+                    <span>(04) 39 748 279</span>
+                    <a href="#">view more</a> <spanc class="sep">|</span> <a href="#">get directions</a>
+                </div>
+                <div class="store-item">
+                    <p>benetton - ha noi</p>
+                    <span>vincom center 191 ba Trieu, le dai hanh, hai ba trung, ha noi, vietnam</span>
+                    <span>(04) 39 748 279</span>
+                    <a href="#">view more</a> <spanc class="sep">|</span> <a href="#">get directions</a>
+                </div>
+                <div class="store-item">
+                    <p>benetton - ha noi</p>
+                    <span>vincom center 191 ba Trieu, le dai hanh, hai ba trung, ha noi, vietnam</span>
+                    <span>(04) 39 748 279</span>
+                    <a href="#">view more</a> <spanc class="sep">|</span> <a href="#">get directions</a>
+                </div>
+                
+            </div>
+            <div class="text-right">
+                <div class="map-th">map</div>
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                        <label class="onoffswitch-label" for="myonoffswitch">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+
+            </div>            
+        </div>
+        <div class="map-wrapper">
+            <div id="map">
+                <img src="images/map.png" width="100%">
             </div>
         </div>
-
-
-
-
     </div>
 
 
@@ -287,8 +283,8 @@
         <div class="footer-language languages">
             <div class="btn-group dropdown">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-							<span class="lang-xs lang-lbl" lang="en"></span> <span class="caret"></span>
-						</button>
+					<span class="lang-xs lang-lbl" lang="en"></span> <span class="caret"></span>
+				</button>
                 <ul class="dropdown-menu" role="menu">
                     <li><span class="lang-xs lang-lbl" lang="vi"></span></li>
                 </ul>
