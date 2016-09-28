@@ -1008,7 +1008,7 @@ h2.subtitle {
     height: 27.5rem;
     border: 1px solid #CBCBCB;
     overflow-y: scroll;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 .find-store-content .search-btn{
     background: #fbe900;
@@ -1017,14 +1017,16 @@ h2.subtitle {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 1.8rem;
-    margin-top:1rem;
 }
 .find-store-content .th {
     text-transform: uppercase;
     margin-bottom: 0.6rem;
 }
 .find-store-content .map-th {
-    text-transform: uppercase
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1rem;
 }
 .find-store-content .page-name {
     font-size: 1.8rem;
@@ -1059,8 +1061,37 @@ h2.subtitle {
 .map-wrapper {
     margin-bottom: 1.5rem;
 }
-.find-store-content {}
-.find-store-content {}
+.find-store-content .city .caret, .find-store-content .location .caret {
+    position: absolute;
+    right: 1.2rem;
+    top:50%;
+    transform: translateY(-50%);
+}
+.find-store-content .city button, .find-store-content .location button {
+    width: 100%;
+    text-align: left;
+    position: relative;
+    text-transform: capitalize;
+    color: #666666;
+    font-weight: 300; 
+}
+.find-store-content .dropdown.open  .dropdown-toggle, .find-store-content .dropdown.open .dropdown-toggle{
+    background:#fff; 
+}
+.find-store-content .city  li, .find-store-content .location li{
+    padding: 1rem 0;
+}
+.find-store-content .city .dropdown-menu, .find-store-content .location .dropdown-menu{
+    width: 100%;
+    padding-left: 1rem;
+}
+.find-store-content .city, .find-store-content .location{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.find-store-content .map-btn-group {
+    padding-bottom: 0.5rem;
+}
 .find-store-content {}
 .find-store-content {}
 .find-store-content {}
@@ -1070,9 +1101,11 @@ h2.subtitle {
 /* switch button CSS */
 
 .onoffswitch {
-    position: relative; width: 70px;
-    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    position: relative; width: 6.9rem;
     display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
 .onoffswitch-checkbox {
     display: none;
@@ -1082,39 +1115,45 @@ h2.subtitle {
     overflow: hidden; 
     cursor: pointer;
     border-radius: 20px;
+    /* anti bootstrapp default margin bottom 10px on label */
+    margin-bottom: 0;
+    font-weight: normal;
 }
 .onoffswitch-inner {
     display: block; width: 200%; margin-left: -100%;
     transition: margin 0.3s ease-in 0s;
+
 }
 .onoffswitch-inner:before, .onoffswitch-inner:after {
-    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
-    font-size: 14px; color: white; 
+    display: block; 
+    float: left; 
+    width: 50%; 
+    height: 30px; 
+    padding: 0; 
+    line-height: 30px;
+    font-size: 14px; 
+    color: white; 
     box-sizing: border-box;
 }
 .onoffswitch-inner:before {
     content: "ON";
-    padding-left: 10px;
-    background-color: #fbe900; 
-    color: #000
+    padding-left: 1.5rem;
+    background-color: #FBE900;
+    color: #000;
 }
 .onoffswitch-inner:after {
     content: "OFF";
-    padding-right: 10px;
+    padding-right: 1.3rem;
     background-color: #EEEEEE; 
-    color: #999999;
+    color: #000;
     text-align: right;
 }
 .onoffswitch-switch {
-    display: block; 
-    width: 18px; 
-    margin: 6px;
+    display: block; width: 21px; margin: 4.5px;
     background: #FFFFFF;
-    position: absolute; 
-    top: 0; 
-    bottom: 0;
-    right: 56px;
-    border: 1px solid #999999; 
+    position: absolute; top: 0; bottom: 0;
+    right: 40px;
+    border: 1px solid #ccc ; 
     border-radius: 20px;
     transition: all 0.3s ease-in 0s; 
 }
@@ -1632,12 +1671,12 @@ h2.subtitle {
     display: none;
 }
 
-input[type=checkbox]+label {
+.filter-options input[type=checkbox]+label {
     font-weight: 400;
     cursor: pointer;
 }
 
-input[type=checkbox]+label>span {
+.filter-options input[type=checkbox]+label>span {
     content: "";
     display: inline-block;
     width: 16px;
@@ -1647,7 +1686,7 @@ input[type=checkbox]+label>span {
     margin-bottom: -2px;
 }
 
-input[type=checkbox]:checked+label>span {
+.filter-options input[type=checkbox]:checked+label>span {
     content: "";
     display: inline-block;
     width: 16px;
