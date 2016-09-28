@@ -1000,8 +1000,59 @@ h2.subtitle {
    brand
    ========================================================================== */
 
-   
-   
+.brand-content .product-type-btn{
+    border: 2px solid #000; 
+    text-transform: uppercase;
+    text-align: center;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    width: 48.59%;
+    /* width: 50%; */
+    margin-bottom: 1rem;
+}
+.brand-content .btn-wrapper{
+    text-align: center;
+    padding: 1rem 1rem;
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+}
+.brand-content .btn-wrapper div:nth-child(odd){
+    margin-right: 1rem;
+}
+.brand-content .img-wrapper{
+    display: flex;
+    padding: 0 1rem;
+    margin-top: 5rem;
+}
+.brand-content .img-wrapper a:first-child{
+    margin-right: 1rem;
+}
+.brand-content .product-item{
+   margin-bottom: 0 !important;
+}
+.brand-content .youtube-wrapper {
+    position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; 
+}
+.brand-content .youtube-wrapper iframe {
+position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+}
+.brand-content .introduction p{
+    margin-top: 1rem;
+    line-height: 2.6rem
+}
+.brand-content .introduction{
+    padding-top: 1rem;
+}
+.brand-content{}
+.brand-content{}
+.brand-content{}
+.brand-content{}
+.brand-content{}
+.brand-content{}
+.brand-content{}
+.brand-content{}
+
 
 /* ==========================================================================
    Find store

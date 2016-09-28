@@ -35,7 +35,7 @@
 
 
     // Best seller
-    jQuery('#js-best-seller').owlCarousel({
+    jQuery('#js-best-seller, #js-new-arrival').owlCarousel({
         margin: 5,
         responsiveClass: true,
         touchDrag: true,
