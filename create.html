@@ -102,10 +102,10 @@
     <div class="navbar navbar-default navbar-fixed-top">
         <div class="hp-header">
             <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
             <div class="logo-wrapper">
                 <a class="logo hp-logo" href="#">
                     <img src="images/logo.png" alt="Hoang Phuc International" title="Hoang Phuc International">
@@ -131,72 +131,69 @@
         </form>
     </div>
     <!-- Content -->
-    <div class="hp-content" id="content">
-
-        <!-- find store content -->
-        <div class="find-store-content">
-            <div class="page-name">find your nearest store</div>
-            <div class="th">search store</div>
-            <div class="btn-group dropdown city">
-                <button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown">
-                    Select Town/City
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                    <li>ho chi minh</li>
-                    <li>da nang</li>
-                </ul>
-            </div>
-            <div class="btn-group dropdown location">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    Your location
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                    <li>ho chi minh</li>
-                    <li>da nang</li>
-                </ul>
-            </div>
-            <div class="search-btn">search</div>
-            <div class="th">stores</div>
-            <div class="store-list">
-                <div class="store-item">
-                    <p>benetton - ha noi</p>
-                    <span>vincom center 191 ba Trieu, le dai hanh, hai ba trung, ha noi, vietnam</span>
-                    <span>(04) 39 748 279</span>
-                    <a href="#">view more</a> <spanc class="sep">|</span> <a href="#">get directions</a>
+    <div class="create-content" id="content">
+        
+        <h3>create an account</h3>
+        <form>
+            <input class="form-control no-radus input-text required-entry" placeholder="First Name *" type="text" name="firstNname">
+            <input class="form-control no-radus input-text required-entry" placeholder="Last Name *" type="text" name="lastNname">
+            <input class="form-control no-radus input-text validate-email required-entry" placeholder="Email Address *" type="text" name="email">
+            <input class="form-control no-radus input-text required-entry validate-password" placeholder="Password *" type="password" name="password">
+            <input class="form-control no-radus input-text required-entry validate-cpassword" placeholder="Confirm Password *" type="password" name="passworConfirm">
+            <div class="dgroup">
+                <div class="btn-group dropdown city">
+                    <button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown">
+                        date
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li>ho chi minh</li>
+                        <li>da nang</li>
+                    </ul>
                 </div>
-                <div class="store-item">
-                    <p>benetton - ha noi</p>
-                    <span>vincom center 191 ba Trieu, le dai hanh, hai ba trung, ha noi, vietnam</span>
-                    <span>(04) 39 748 279</span>
-                    <a href="#">view more</a> <spanc class="sep">|</span> <a href="#">get directions</a>
+                <div class="btn-group dropdown city">
+                    <button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown">
+                        month
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li>ho chi minh</li>
+                        <li>da nang</li>
+                    </ul>
                 </div>
-                <div class="store-item">
-                    <p>benetton - ha noi</p>
-                    <span>vincom center 191 ba Trieu, le dai hanh, hai ba trung, ha noi, vietnam</span>
-                    <span>(04) 39 748 279</span>
-                    <a href="#">view more</a> <spanc class="sep">|</span> <a href="#">get directions</a>
+                <div class="btn-group dropdown city">
+                    <button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown">
+                        year
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li>ho chi minh</li>
+                        <li>da nang</li>
+                    </ul>
                 </div>
-                
             </div>
-            <div class="text-right map-btn-group">
-                <div class="map-th">map</div>
-                <div class="onoffswitch">
-                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-                    <label class="onoffswitch-label" for="myonoffswitch">
-                        <span class="onoffswitch-inner"></span>
-                        <span class="onoffswitch-switch"></span>
-                    </label>
-                </div>
-
-            </div>            
-        </div>
-        <div class="map-wrapper">
-            <div id="map">
-                <img src="images/map.png" width="100%">
+            
+            <div class="radio-btn-group">
+                <label class="male radio-inline"><input type="radio" name=""> male</label>
+                <label class="radio-inline"><input type="radio" name=""> female</label>
             </div>
-        </div>
+            
+            <p class="text-left arial">
+                By submitting, I agree that I have read and understood all the Terms and Conditions of Hoang Phuc International
+            </p>
+            <label class="checkbox-inline signup-label"><input type="checkbox" name="">sign up for newletter</label>
+            
+            <button type="submit" title="submit" class="btn-block button submit-btn">sign up</button>
+            <a href="" title="back" class="btn btn-block btn-black"><span>back</span></a>
+            <div class="page-subtitle">
+                <h5 class="subtitle">or sign up with</h5>
+            </div>
+            <div class="social-btn-group">
+                <a class="btn-googleplus btn-social" href=""><i class="fa fa-google-plus"></i><span>GOOGLE PLUS</span></a>
+                <a class="btn-facebook btn-social" href=""><i class="fa fa-facebook-f"></i><span>FACEBOOK</span></a>
+            </div>
+            
+        </form>
     </div>
 
 
@@ -283,8 +280,8 @@
         <div class="footer-language languages">
             <div class="btn-group dropdown">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-					<span class="lang-xs lang-lbl" lang="en"></span> <span class="caret"></span>
-				</button>
+							<span class="lang-xs lang-lbl" lang="en"></span> <span class="caret"></span>
+						</button>
                 <ul class="dropdown-menu" role="menu">
                     <li><span class="lang-xs lang-lbl" lang="vi"></span></li>
                 </ul>
